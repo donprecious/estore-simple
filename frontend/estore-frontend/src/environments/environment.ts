@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  estoreApiUrl: 'https://localhost:7010/api/v1',
+  estoreApiUrl: 'http://localhost:7010/api/v1',
 };
 
 /*

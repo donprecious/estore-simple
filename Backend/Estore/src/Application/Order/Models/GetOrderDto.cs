@@ -1,4 +1,3 @@
-using AutoMapper;
 using PassMerchantMiddleware.Application.Common.Models;
 
 namespace PassMerchantMiddleware.Application.Order.Models;
@@ -13,14 +12,4 @@ public class GetOrderDto : BaseEntityDto
     
     public int TotalItem { get; set; } 
     public decimal TotalAmount { get; set; }
-}
-
-public class GetOrderDtoProfile : Profile
-{
-    public GetOrderDtoProfile()
-    {
-        CreateMap<GetOrderDto, Domain.Entities.OrderAggregate.Order>().ReverseMap();
-        
-    
-    }
 }

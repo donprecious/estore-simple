@@ -1,0 +1,10 @@
+version: "3"
+services:
+  backend:
+    build:
+      context: ./Backend/Estore/src
+    image: estore-backend
+  frontend:
+    build:
+      context: ./frontend/estore-frontend
+    image: estore-frontend

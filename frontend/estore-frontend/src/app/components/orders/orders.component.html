@@ -2,7 +2,8 @@
     <thead>
         <tr>
             <th>Customer</th>
-            <th>Total Unit</th>
+            <th>Product</th>
+            <th>unit per price</th>
             <th>Total Price</th>
             <th>Date Ordered</th>
             <th></th>
@@ -16,7 +17,18 @@
     <tbody>
         <tr *ngFor="let order of orders">
             <td>{{order.customerEmail}}</td>
-            <td> {{order.totalItem}} </td>
+             <td> 
+                 <img
+          src="https://res.cloudinary.com/votel/image/fetch/c_fill,h_50,w_50/{{ order.orderItems[0].product.imageUrl }}"
+      
+            class="uk-transition-scale-up uk-transition-opaque"
+          alt=""
+          uk-img
+        />
+                {{order.orderItems[0].product.name}}
+                
+            </td>
+            <td> {{order.orderItems[0].quantity}} | USD {{order.orderItems[0].product.amount}} </td>
             <td> $ {{order.totalAmount.toLocaleString()}}</td>
             <td>  {{  formatDate(order.createdAt)}} </td>
             <td><button class="uk-button uk-button-primary">view items</button></td>

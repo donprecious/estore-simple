@@ -1,4 +1,3 @@
-using AutoMapper;
 using PassMerchantMiddleware.Application.Common.Models;
 using PassMerchantMiddleware.Domain.Common;
 using SharedKernel.Model;
@@ -14,13 +13,3 @@ public class GetProductDto: BaseEntityDto
     public decimal Amount { get; set; }
     
 }
-
-public class GetProductProfile: Profile 
-{
-    public GetProductProfile()
-    {
-        CreateMap<Domain.Entities.Product, GetProductDto>().ReverseMap();
-    }
-
-}
-
