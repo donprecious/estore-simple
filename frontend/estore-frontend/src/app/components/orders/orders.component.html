@@ -1,0 +1,28 @@
+<table class="uk-table uk-table-hover uk-table-striped">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Total Unit</th>
+            <th>Total Price</th>
+            <th>Date Ordered</th>
+            <th></th>
+        </tr>
+    </thead>
+      <!-- customerEmail: string;
+  shippingAddress: ShippingAddress;
+  orderItems: OrderItem[];
+  id: number;
+  createdAt: string; -->
+    <tbody>
+        <tr *ngFor="let order of orders">
+            <td>{{order.customerEmail}}</td>
+            <td> {{order.totalItem}} </td>
+            <td> $ {{order.totalAmount.toLocaleString()}}</td>
+            <td>  {{  formatDate(order.createdAt)}} </td>
+            <td><button class="uk-button uk-button-primary">view items</button></td>
+        </tr>
+        
+    </tbody>
+</table>
+
+<!-- <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>Open</a> -->

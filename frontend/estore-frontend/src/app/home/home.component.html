@@ -1,0 +1,40 @@
+
+
+
+<div class="uk-section">
+      <h1 class="uk-article-title"><a class="uk-link-reset" href="">Overview</a></h1>
+
+<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body"> 
+            <h3 class="uk-card-title"> Unique Buyers </h3>
+            <h1>{{overview.uniqueUser}}</h1>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+             <h3 class="uk-card-title"> Total Sales </h3>
+            <h1>{{overview.sales}}</h1>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+                   <h3 class="uk-card-title"> Total Orders </h3>
+            <h1>{{overview.orders}}</h1>
+        </div>
+    </div>
+</div>
+
+<div  class="uk-section">
+     <button class="uk-button uk-align-right uk-button-secondary"  uk-toggle="target: #add-product-modal">Add Product</button>
+  <h1 class="uk-article-title"><a class="uk-link-reset" href="">Latest Products</a></h1>
+  
+<app-products [products]="products" ></app-products>
+</div>
+
+<div  class="uk-section">
+  <h1 class="uk-article-title"><a class="uk-link-reset" href="">Recent Orders</a></h1>
+<app-orders [orders]="orders"></app-orders>
+</div>
+
+
