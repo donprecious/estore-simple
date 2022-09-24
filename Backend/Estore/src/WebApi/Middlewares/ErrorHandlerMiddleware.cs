@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using PassMerchantMiddleware.Application.Exceptions;
 using SharedKernel.Model;
 
+
 namespace WebApi.Middlewares
 {
     public class ErrorHandlerMiddleware

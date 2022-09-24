@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "PassMerchantMiddleware\tests\Application.UnitTests\Application.UnitTests.csproj", "{E607E3C3-BA24-46C5-BDF3-7940C8784D65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "Estore\tests\Application.UnitTests\Application.UnitTests.csproj", "{E607E3C3-BA24-46C5-BDF3-7940C8784D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "PassMerchantMiddleware\tests\Domain.UnitTests\Domain.UnitTests.csproj", "{F37BE835-4B0F-42F4-93ED-6A29C1E8C76E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "Estore\tests\Domain.UnitTests\Domain.UnitTests.csproj", "{F37BE835-4B0F-42F4-93ED-6A29C1E8C76E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "PassMerchantMiddleware\src\Application\Application.csproj", "{D91CD9CF-8E38-4BAB-8A44-8848941FE116}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Estore\src\Application\Application.csproj", "{D91CD9CF-8E38-4BAB-8A44-8848941FE116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "PassMerchantMiddleware\src\Domain\Domain.csproj", "{31DBB129-F815-42E2-AA97-00D6DD63C7CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Estore\src\Domain\Domain.csproj", "{31DBB129-F815-42E2-AA97-00D6DD63C7CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "PassMerchantMiddleware\src\WebApi\WebApi.csproj", "{39073EC0-DFE5-48AC-BC24-B36456AF960A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "Estore\src\WebApi\WebApi.csproj", "{39073EC0-DFE5-48AC-BC24-B36456AF960A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4B4551CC-9DAB-44A7-B60C-AF704B9F5CC2}"
 EndProject
@@ -19,11 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastruture", "Infrastruture", "{69985687-6724-4C90-ADC7-424122F7D908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{A50D7870-07B6-431B-8A1B-CCBE2932C66D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "Estore\src\SharedKernel\SharedKernel.csproj", "{A50D7870-07B6-431B-8A1B-CCBE2932C66D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "PassMerchantMiddleware\src\Infrastructure\Persistence\Persistence.csproj", "{D477F533-104B-4573-BE9F-160702A714F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Estore\src\Infrastructure\Persistence\Persistence.csproj", "{D477F533-104B-4573-BE9F-160702A714F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "PassMerchantMiddleware\src\Infrastructure\Services\Services.csproj", "{4AB2F34C-C68E-4CA4-983E-A4BAAB2E1423}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Estore\src\Infrastructure\Services\Services.csproj", "{4AB2F34C-C68E-4CA4-983E-A4BAAB2E1423}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
