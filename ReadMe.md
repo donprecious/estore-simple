@@ -26,3 +26,8 @@ backend : http://localhost:7010/swagger/index.html
 docker-compose down 
 docker image prune --all
 
+Public url 
+frontend : https://632f8d539dc99769acf7c965--relaxed-choux-738f05.netlify.app/ 
+
+backend : https://simple-estore.herokuapp.com/swagger/index.html
+

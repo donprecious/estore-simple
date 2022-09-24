@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  estoreApiUrl: 'http://localhost:7010/api/v1',
+  estoreApiUrl: 'https://simple-estore.herokuapp.com/api/v1',
 };
